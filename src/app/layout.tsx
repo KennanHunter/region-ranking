@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body style={inter.style} className="h-screen">
-        <div className="h-full">{children}</div>
+        {children}
       </body>
     </html>
   );

@@ -7,7 +7,7 @@ export const oprFromPage = (
   }: {
     onlyActive: boolean;
   } = {
-    onlyActive: false,
+    onlyActive: true,
   }
 ): number[] => {
   const $ = cheerio.load(page);
